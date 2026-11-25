@@ -223,4 +223,9 @@ def preview_camera(camera_index=0):
 if __name__ == "__main__":
     preview_camera(0)
 
+if __name__ == "__main__":
+    print("Старт над линией. Для посадки нажмите Esc в окне видео.")
+    camera_mission(cfg.DOWN_CAMERA, follow)
+
+
 
